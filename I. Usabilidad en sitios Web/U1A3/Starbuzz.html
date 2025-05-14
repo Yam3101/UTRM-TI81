@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Starbuzz Coffee</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="coffee.css" />
+	</head>
+	<body>
+		<main
+			class="w-screen h-screen overflow-x-hidden bg-[#d6c396] flex flex-col"
+		>
+			<nav
+				class="flex justify-between items-center bg-[#300511] text-white p-2 py-3 w-full"
+			>
+				<h1 class="dm-sans text-2xl font-bold">Starbuzz Coffee</h1>
+			</nav>
+			<section class="flex flex-col w-full">
+				<h2 class="dm-sans text-4xl font-bold text-center my-5">Beverages</h2>
+				<section class="flex flex-wrap justify-center">
+					<div
+						class="flex flex-col bg-white shadow-md shadow-stone-500 hover:shadow-stone-700 p-4 w-1/2 m-2 rounded-md duration-200"
+					>
+						<div class="flex items-center gap-1">
+							<img width="20" src="coffee-cup.svg" alt="Coffee Cup" />
+							<h2 class="dm-sans font-semibold text-xl">House Blend</h2>
+						</div>
+						<div class="flex flex-wrap items-center justify-between">
+							<p>
+								A smooth, mild blend of coffees from Mexico, Bolivia, and
+								Guatemala.
+							</p>
+							<button
+								class="text-white bg-emerald-600 hover:bg-emerald-800 py-1 px-2 font-bold rounded-md duration-200"
+							>
+								$1.49 USD
+							</button>
+						</div>
+					</div>
+
+					<div
+						class="flex flex-col bg-white shadow-md shadow-stone-500 hover:shadow-stone-700 p-4 w-1/2 m-2 rounded-md duration-200"
+					>
+						<div class="flex items-center gap-1">
+							<img width="20" src="coffee-cup.svg" alt="Coffee Cup" />
+							<h2 class="dm-sans font-semibold text-xl">Mocha Cafe Latte</h2>
+						</div>
+						<div class="flex flex-wrap items-center justify-between">
+							<p>Expresso, steamed milk and chocolate syrup.</p>
+							<button
+								class="text-white bg-emerald-600 hover:bg-emerald-800 py-1 px-2 font-bold rounded-md duration-200"
+							>
+								$2.35 USD
+							</button>
+						</div>
+					</div>
+
+					<div
+						class="flex flex-col bg-white shadow-md shadow-stone-500 hover:shadow-stone-700 p-4 w-1/2 m-2 rounded-md duration-200"
+					>
+						<div class="flex items-center gap-1">
+							<img width="20" src="coffee-cup.svg" alt="Coffee Cup" />
+							<h2 class="dm-sans font-semibold text-xl">Cappuccino</h2>
+						</div>
+						<div class="flex flex-wrap items-center justify-between">
+							<p>A mixture of espresso, steamed milk, and foam.</p>
+							<button
+								class="text-white bg-emerald-600 hover:bg-emerald-800 py-1 px-2 font-bold rounded-md duration-200"
+							>
+								$1.89 USD
+							</button>
+						</div>
+					</div>
+
+					<div
+						class="flex flex-col bg-white shadow-md shadow-stone-500 hover:shadow-stone-700 p-4 w-1/2 m-2 rounded-md duration-200"
+					>
+						<div class="flex items-center gap-1">
+							<img width="20" src="coffee-cup.svg" alt="Coffee Cup" />
+							<h2 class="dm-sans font-semibold text-xl">Chai Tea</h2>
+						</div>
+						<div class="flex flex-wrap items-center justify-between">
+							<p>A spicy drink made with black tea, spices, milk and honey.</p>
+							<button
+								class="text-white bg-emerald-600 hover:bg-emerald-800 py-1 px-2 font-bold rounded-md duration-200"
+							>
+								$1.85 USD
+							</button>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
